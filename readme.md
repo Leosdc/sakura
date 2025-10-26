@@ -115,6 +115,7 @@ python bot_kawaii_androide.py
 ├── .env
 ├── requirements.txt
 └── README.md
+└── changelog.md
 ```
 
 ---
