@@ -10,6 +10,7 @@ Um bot de Discord com **IA conversacional e voz realista**, capaz de alternar en
 ![Groq API](https://img.shields.io/badge/Groq-Llama_3.3_70B-orange.svg)
 ![ElevenLabs](https://img.shields.io/badge/Voice-ElevenLabs-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Version](https://img.shields.io/badge/Version-v1.0.1-purple.svg)
 
 ---
 
@@ -96,13 +97,11 @@ python bot_kawaii_androide.py
 ### 💖 **Kawaii**
 - Fala animada, doce e meiga  
 - Usa honoríficos e palavras japonesas (-chan, -kun, arigatou...)  
-- Tem carinho especial por **Leonardo-kun** 💕  
 - Voz feminina e expressiva (Gigi / estilo anime)
 
 ### ⚔️ **Androide**
 - Comunicação séria e profissional  
 - Estilo militar, inspirada em 2B (NieR: Automata)  
-- Leal e protetora de **Leonardo, o Comandante**  
 - Voz madura e estável (Aria / ElevenLabs)
 
 ---
@@ -114,7 +113,7 @@ python bot_kawaii_androide.py
 ├── bot_kawaii_androide.py
 ├── .env
 ├── requirements.txt
-└── README.md
+├── README.md
 └── changelog.md
 ```
 
