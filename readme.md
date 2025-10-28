@@ -142,3 +142,11 @@ Feito com 💖 por [Leonardo da Cruz](https://github.com/Leosdc)
 
 > **Leonardo (modo androide):** Status do sistema.  
 > **Sakura (androide):** Sistema operacional estável. Nenhum erro detectado. Aguardando ordens, comandante. ⚙️
+
+## 🔮 **Roadmap Futuro**
+
+### 🎯 **Modularização do código**
+- [ ] Modularizar o código para que fique mais simples adicionar novas funções  
+
+### 🎯 **Responder comandos por voz nos voice channels**
+- [ ] Sakura responder falas de membros do canal
