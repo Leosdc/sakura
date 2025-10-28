@@ -1,0 +1,43 @@
+"""
+Módulo de configuração do bot Sakura
+"""
+
+from .settings import (
+    DISCORD_BOT_TOKEN,
+    GROQ_API_KEY,
+    ELEVENLABS_API_KEY,
+    BOT_PREFIX,
+    MAX_HISTORY_MESSAGES,
+    AUTO_RESPONSE_CHANCE,
+    MIN_MESSAGE_LENGTH,
+    GROQ_MODEL,
+    GROQ_TEMPERATURE,
+    GROQ_MAX_TOKENS,
+    ELEVENLABS_MODEL,
+    MAX_PURGE_MESSAGES,
+    MAX_TIMEOUT_DAYS,
+    MESSAGE_SPLIT_LENGTH,
+    validate_config,
+)
+
+from .personalities import PERSONALIDADES, PERSONALIDADE_PADRAO
+
+__all__ = [
+    "DISCORD_BOT_TOKEN",
+    "GROQ_API_KEY",
+    "ELEVENLABS_API_KEY",
+    "BOT_PREFIX",
+    "MAX_HISTORY_MESSAGES",
+    "AUTO_RESPONSE_CHANCE",
+    "MIN_MESSAGE_LENGTH",
+    "GROQ_MODEL",
+    "GROQ_TEMPERATURE",
+    "GROQ_MAX_TOKENS",
+    "ELEVENLABS_MODEL",
+    "MAX_PURGE_MESSAGES",
+    "MAX_TIMEOUT_DAYS",
+    "MESSAGE_SPLIT_LENGTH",
+    "PERSONALIDADES",
+    "PERSONALIDADE_PADRAO",
+    "validate_config",
+]
