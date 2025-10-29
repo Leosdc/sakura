@@ -9,7 +9,7 @@ import asyncio
 import re
 import warnings
 
-# Carrega as variáveis do arquivo .env
+# Carrega as variáveis dos arquivo .env
 load_dotenv()
 
 # Configuração do bot
