@@ -3,7 +3,7 @@
 Um bot de Discord com **IA conversacional e voz realista**, capaz de alternar entre dois modos de personalidade:  
 💖 **Kawaii** (waifu japonesa fofa) e ⚔️ **Androide** (inspirada em 2B / NIKKE).
 
-> Desenvolvido com ❤️ e código por **Leonardo da Cruz**
+> Desenvolvido com ❤️ e código por **Leonardo da Cruz** e **Mário**
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Discord.py](https://img.shields.io/badge/Discord.py-2.3+-green.svg)
