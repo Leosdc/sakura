@@ -179,8 +179,5 @@ Feito com 💖 por [Leonardo da Cruz](https://github.com/Leosdc)
 
 ## 🔮 **Roadmap Futuro**
 
-### 🎯 **Modularização do código**
-- [ ] Modularizar o código para que fique mais simples adicionar novas funções  
-
 ### 🎯 **Responder comandos por voz nos voice channels**
 - [ ] Sakura responder falas de membros do canal
