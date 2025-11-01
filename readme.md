@@ -68,7 +68,7 @@ ELEVENLABS_API_KEY=SUA_CHAVE_ELEVENLABS
 
 ### 4️⃣ Execute o bot
 ```bash
-python bot_kawaii_androide.py
+python main.py
 ```
 
 ---
