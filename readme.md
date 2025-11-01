@@ -10,7 +10,7 @@ Um bot de Discord com **IA conversacional e voz realista**, capaz de alternar en
 ![Groq API](https://img.shields.io/badge/Groq-Llama_3.3_70B-orange.svg)
 ![ElevenLabs](https://img.shields.io/badge/Voice-ElevenLabs-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/Version-v1.0.1-purple.svg)
+![Version](https://img.shields.io/badge/Version-v1.0.2-purple.svg)
 
 ---
 
@@ -110,11 +110,45 @@ python bot_kawaii_androide.py
 
 ```
 📦 Sakura-Bot
-├── bot_kawaii_androide.py
 ├── .env
-├── requirements.txt
-├── README.md
-└── changelog.md
+├── .gitignore
+├── changelog.md
+├── LICENSE.txt
+├── main.py
+├── readme.md
+├── sakura_voice.mp3
+│
+├── 📁 commands
+│   ├── __init__.py
+│   ├── ai_commands.py
+│   ├── moderation_commands.py
+│   ├── personality_commands.py
+│   ├── utility_commands.py
+│   └── voice_commands.py
+│
+├── 📁 config
+│   ├── __init__.py
+│   ├── personalities.py
+│   └── settings.py
+│
+├── 📁 core
+│   ├── __init__.py
+│   ├── bot.py
+│   └── conversation.py
+│
+├── 📁 events
+│   ├── __init__.py
+│   └── message_handler.py
+│
+├── 📁 services
+│   ├── __init__.py
+│   ├── elevenlabs_service.py
+│   └── groq_service.py
+│
+└── 📁 utils
+    ├── __init__.py
+    ├── helpers.py
+    └── validators.py
 ```
 
 ---
