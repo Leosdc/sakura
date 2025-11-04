@@ -1,5 +1,12 @@
 # 📜 Changelog
 
+## [1.0.3] - 2025-11-03
+### 🔒 Segurança e Controle
+- **Adicionado** restrição de canais permitidos para respostas
+- **Limitado** respostas de texto apenas para #mesas-da-taverna e #quarto-da-sakura
+- **Adicionado** validação de canal em comandos de IA e respostas automáticas
+- **Melhorada** organização e controle de onde o bot pode interagir
+
 ## [1.0.2] - 2025-11-01
 ### 🏗️ Reestruturado - Organização Modular Completa
 - **Divisão total do código** em módulos (`commands`, `config`, `core`, `events`, `services`, `utils`)

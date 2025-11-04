@@ -155,7 +155,8 @@ python main.py
 
 ## 🔒 Observações
 
-- O bot **nunca** pune ou expulsa o usuário “Leonardo da Cruz”
+- O bot **apenas responde** nos canais **#mesas-da-taverna** e **#quarto-da-sakura**
+- O bot **nunca** pune ou expulsa o usuário "Leonardo da Cruz"
 - Cada modo possui **sua própria voz, cor e mensagens** embutidas
 - Mensagens longas são divididas automaticamente para evitar limites do Discord
 - Compatível com servidores com **múltiplos canais de voz e texto**
