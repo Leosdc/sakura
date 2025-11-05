@@ -33,7 +33,7 @@ MAX_TIMEOUT_DAYS = 28
 MESSAGE_SPLIT_LENGTH = 1990  # Tamanho máximo antes de dividir mensagem
 
 # Canais permitidos para resposta
-CANAIS_PERMITIDOS = ["mesas-da-taverna", "quarto-da-sakura"]
+CANAIS_PERMITIDOS = ["mesas-da-taverna", "quarto-da-sakura", "another-level-ai"]
 
 
 # Validação de configuração
