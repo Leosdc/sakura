@@ -1,5 +1,10 @@
 # 📜 Changelog
 
+## [1.0.4] - 2025-11-08
+### 💫 Correções
+- **Corrigido** comandos que estavam usando o prefixo "!" ao invés de ">"
+- **Adicionado** pasta fix com o arquivo fix_prefixes.py
+
 ## [1.0.3] - 2025-11-03
 ### 🔒 Segurança e Controle
 - **Adicionado** restrição de canais permitidos para respostas
