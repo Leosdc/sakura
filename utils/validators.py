@@ -4,7 +4,7 @@ Funções de validação
 
 import re
 from datetime import timedelta
-from config import MAX_PURGE_MESSAGES, MAX_TIMEOUT_DAYS, CANAIS_PERMITIDOS
+from config import MAX_PURGE_MESSAGES, MAX_TIMEOUT_DAYS
 
 
 def validar_quantidade_apagar(quantidade):
@@ -82,16 +82,3 @@ def validar_permissao_mensagens(member):
         bool: True se tem permissão, False caso contrário
     """
     return member.guild_permissions.manage_messages
-
-
-def validar_canal_permitido(channel):
-    """
-    Valida se o canal está na lista de canais permitidos
-
-    Args:
-        channel: Objeto discord.Channel
-
-    Returns:
-        bool: True se o canal é permitido, False caso contrário
-    """
-    return channel.name in CANAIS_PERMITIDOS

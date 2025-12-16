@@ -13,7 +13,6 @@ from .validators import (
     validar_tempo_castigo,
     validar_permissao_moderacao,
     validar_permissao_mensagens,
-    validar_canal_permitido,
 )
 
 __all__ = [
@@ -24,5 +23,4 @@ __all__ = [
     "validar_tempo_castigo",
     "validar_permissao_moderacao",
     "validar_permissao_mensagens",
-    "validar_canal_permitido",
 ]

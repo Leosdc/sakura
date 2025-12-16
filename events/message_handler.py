@@ -13,7 +13,7 @@ from core import (
     get_personalidade_atual,
 )
 from services import gerar_resposta, gerar_audio
-from utils import deve_responder_automaticamente, dividir_mensagem_longa, validar_canal_permitido
+from utils import deve_responder_automaticamente, dividir_mensagem_longa
 from config import PERSONALIDADES, GROQ_TEMPERATURE, GROQ_MAX_TOKENS
 
 
@@ -24,22 +24,6 @@ async def on_ready():
     print(f"ID: {bot.user.id}")
     print(f"Personalidade atual: {get_personalidade_atual()}")
     print(f"Voz automática: {'ATIVADA' if get_voz_automatica() else 'DESATIVADA'}")
-    
-    # Define a atividade do bot
-    personalidade = get_personalidade_atual()
-    if personalidade == "kawaii":
-        activity = discord.Activity(
-            type=discord.ActivityType.watching,
-            name="as mesas da taverna 🌸"
-        )
-    else:  # androide
-        activity = discord.Activity(
-            type=discord.ActivityType.watching,
-            name="o perímetro ⚔️"
-        )
-    
-    await bot.change_presence(activity=activity, status=discord.Status.online)
-    print(f"Status definido: {activity.name}")
 
 
 @bot.event
@@ -55,10 +39,6 @@ async def on_message(message):
     # Se a mensagem já foi processada como comando, não responde automaticamente
     ctx = await bot.get_context(message)
     if ctx.valid:
-        return
-
-    # Verifica se o canal é permitido para respostas automáticas
-    if not validar_canal_permitido(message.channel):
         return
 
     # Verifica se deve responder automaticamente

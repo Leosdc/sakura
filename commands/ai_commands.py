@@ -13,20 +13,13 @@ from core import (
     get_mensagem,
 )
 from services import gerar_resposta
-from utils import dividir_mensagem_longa, validar_canal_permitido
+from utils import dividir_mensagem_longa
 from config import GROQ_TEMPERATURE
 
 
 @bot.command(name="ai")
 async def chat_ai(ctx, *, pergunta):
     """Conversa com a IA"""
-    # Verifica se o canal é permitido
-    if not validar_canal_permitido(ctx.channel):
-        await ctx.reply(
-            f"Este comando só funciona nos canais: #mesas-da-taverna e #quarto-da-sakura 🌸"
-        )
-        return
-
     channel_id = ctx.channel.id
 
     # Adiciona mensagem ao histórico

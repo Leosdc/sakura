@@ -60,7 +60,7 @@ async def falar_voz(ctx, *, texto: str):
     """Fala no canal de voz usando ElevenLabs"""
     if ctx.voice_client is None:
         await ctx.send(
-            f"{ctx.author.mention} Não estou conectada. Use >entrar primeiro."
+            f"{ctx.author.mention} Não estou conectada. Use !entrar primeiro."
         )
         return
 
