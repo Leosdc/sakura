@@ -10,7 +10,7 @@ Um bot de Discord com **IA conversacional e voz realista**, capaz de alternar en
 ![Groq API](https://img.shields.io/badge/Groq-Llama_3.3_70B-orange.svg)
 ![ElevenLabs](https://img.shields.io/badge/Voice-ElevenLabs-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/Version-v1.0.4-purple.svg)
+![Version](https://img.shields.io/badge/Version-v1.0.5-purple.svg)
 
 ---
 
