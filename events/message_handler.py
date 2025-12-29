@@ -14,7 +14,7 @@ from core import (
 )
 from services import gerar_resposta, gerar_audio
 from utils import deve_responder_automaticamente, dividir_mensagem_longa
-from config import PERSONALIDADES, GROQ_TEMPERATURE, GROQ_MAX_TOKENS
+from config import PERSONALIDADES, GROQ_TEMPERATURE, GROQ_MAX_TOKENS, ALLOWED_CHANNELS
 
 
 @bot.event
@@ -35,6 +35,12 @@ async def on_message(message):
 
     # Processa comandos normalmente
     await bot.process_commands(message)
+
+    # Verifica se o canal é permitido (apenas se for mensagem em guilda)
+    if message.guild:
+        channel_name = message.channel.name
+        if channel_name not in ALLOWED_CHANNELS:
+            return
 
     # Se a mensagem já foi processada como comando, não responde automaticamente
     ctx = await bot.get_context(message)

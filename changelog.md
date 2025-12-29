@@ -1,4 +1,10 @@
 # 📜 Changelog
+    
+## [1.1.0] - 2025-12-29
+### 🚀 Adicionado
+- **Restrição de canais**: Agora a Sakura responde automaticamente apenas nos canais configurados (`#quarto-da-sakura` e `mesas-da-taverna`).
+- **Configuração centralizada**: Adicionada variável `ALLOWED_CHANNELS` para controle fácil de onde o bot deve atuar.
+
 
 ## [1.0.5] - 2025-12-19
 ### 💫 Corrigido

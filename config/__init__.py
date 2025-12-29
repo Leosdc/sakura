@@ -17,6 +17,7 @@ from .settings import (
     MAX_PURGE_MESSAGES,
     MAX_TIMEOUT_DAYS,
     MESSAGE_SPLIT_LENGTH,
+    ALLOWED_CHANNELS,
     validate_config,
 )
 
@@ -37,6 +38,7 @@ __all__ = [
     "MAX_PURGE_MESSAGES",
     "MAX_TIMEOUT_DAYS",
     "MESSAGE_SPLIT_LENGTH",
+    "ALLOWED_CHANNELS",
     "PERSONALIDADES",
     "PERSONALIDADE_PADRAO",
     "validate_config",

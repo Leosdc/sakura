@@ -10,7 +10,7 @@ Um bot de Discord com **IA conversacional e voz realista**, capaz de alternar en
 ![Groq API](https://img.shields.io/badge/Groq-Llama_3.3_70B-orange.svg)
 ![ElevenLabs](https://img.shields.io/badge/Voice-ElevenLabs-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/Version-v1.0.5-purple.svg)
+![Version](https://img.shields.io/badge/Version-v1.1.0-purple.svg)
 
 ---
 
@@ -19,6 +19,7 @@ Um bot de Discord com **IA conversacional e voz realista**, capaz de alternar en
 - 🤖 **IA Integrada (Groq / Llama 3.3-70B)**
   - Gera respostas inteligentes, contextuais e carismáticas
   - Mantém histórico por canal para conversas contínuas
+  - **Restrição de Canais**: Responde apenas em canais específicos (ex: `#quarto-da-sakura`)
   
 - 🎤 **Voz Realista (ElevenLabs)**
   - Conversão de texto em voz com vozes distintas por personalidade
@@ -110,11 +111,16 @@ python bot_kawaii_androide.py
 
 ```
 📦 Sakura-Bot
-├── bot_kawaii_androide.py
-├── .env
-├── requirements.txt
-├── README.md
-└── changelog.md
+├── main.py                # Ponto de entrada
+├── bot_kawaii_androide.py # Script legível (antigo)
+├── commands/              # Comandos do bot
+├── config/                # Configurações e Settings
+├── core/                  # Núcleo do sistema (bot instance)
+├── events/                # Handlers de mensagens e eventos
+├── services/              # Integrações (Groq, ElevenLabs)
+├── utils/                 # Funções auxiliares e validadores
+├── .env                   # Chaves secretas
+└── requirements.txt       # Dependências
 ```
 
 ---

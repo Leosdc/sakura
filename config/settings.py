@@ -18,6 +18,7 @@ BOT_PREFIX = ">"
 MAX_HISTORY_MESSAGES = 20  # Máximo de mensagens no histórico
 AUTO_RESPONSE_CHANCE = 0.3  # 30% de chance de responder automaticamente
 MIN_MESSAGE_LENGTH = 3  # Tamanho mínimo de mensagem para resposta automática
+ALLOWED_CHANNELS = ["quarto-da-sakura", "mesas-da-taverna"]
 
 # Configurações da API Groq
 GROQ_MODEL = "llama-3.3-70b-versatile"
